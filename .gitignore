@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Build output
+frontend/build/
+dist/
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Not part of client deliverable
+supabase/
+backend/
+scripts/
+*.sql
+TEST_CASES.*
+RECOVERY.md
+BROWNOUT_SOLUTIONS.md
+CREATE_SUPER_ADMIN_STEPS.md
+DEFENSE_QUESTIONS.md
+DEPLOYMENT.md
+DOCUMENTATION_INDEX.md
+FILES_TO_SEND_TO_CLIENT.txt
+FOR_TESTERS.md
+FRESH_START_AND_SUPER_ADMIN_LOGIN.md
+PROBLEM_STATEMENT.md
+ROLES_AND_RESPONSIBILITIES.md
+ROLES_IMPLEMENTATION_SUMMARY.md
+SYSTEM_*.md
+THESIS_WRITER_PACKAGE.md

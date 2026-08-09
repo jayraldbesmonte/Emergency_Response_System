@@ -1,0 +1,13 @@
+{
+  "name": "emergency-response",
+  "private": true,
+  "description": "Emergency Response Platform — run setup from this folder after cloning",
+  "scripts": {
+    "setup": "npm install --prefix frontend",
+    "start": "npm start --prefix frontend",
+    "build": "npm run build --prefix frontend"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
